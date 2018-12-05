@@ -1,9 +1,8 @@
 export interface Post {
-	postId: string,
+	postId: number,
 	postAuthor: string,
 	postContent: string,
 	postDate: Date,
-	postTitle: string
 }
 
 
