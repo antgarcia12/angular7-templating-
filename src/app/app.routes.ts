@@ -2,6 +2,9 @@ import {RouterModule, Routes} from "@angular/router";
 import {SplashComponent} from "./splash/splash.component";
 import {APP_BASE_HREF} from "@angular/common";
 import {DeepDiveInterceptor} from "./shared/interceptors/deep.dive.interceptor";
+import {HTTP_INTERCEPTORS} from "@angular/common/http";
+import {PostService} from "./shared/services/post.service";
+import {SessionService} from "./shared/services/session.service";
 
 
 export const allAppComponents = [SplashComponent];
